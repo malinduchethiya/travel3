@@ -1,0 +1,6 @@
+{
+  "name": "Serendib — Guided Journeys Through Sri Lanka",
+  "description": "Two private guided journeys through Sri Lanka — tea country, ancient cities, wildlife and the southern coast — designed for travellers from the United Kingdom and India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

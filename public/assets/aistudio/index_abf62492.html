@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" data-market="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Serendib — Guided Journeys Through Sri Lanka</title>
+  <meta name="description" content="Two private guided journeys through Sri Lanka — tea country, ancient cities, wildlife and the southern coast — designed for travellers from the United Kingdom and India.">
+  <meta property="og:title" content="Serendib — Guided Journeys Through Sri Lanka">
+  <meta property="og:description" content="Two considered journeys into Ceylon, shaped around where you're travelling from.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero-sigiriya.jpg">
+  <meta name="theme-color" content="#17140F">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2317140F'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23C9A96B' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/hero-sigiriya.jpg" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    try {
+      var saved = localStorage.getItem('serendib-market');
+      if (saved === 'uk' || saved === 'in') document.documentElement.dataset.market = saved;
+    } catch (e) {}
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+<body>
+
+<a class="skip-link" href="#journeys">Skip to the journeys</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="Serendib — back to top">
+      <span class="brand-name">Serendib</span>
+      <span class="brand-sub">Ceylon · Est. 2009</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="#journeys">Journeys</a>
+      <a href="#island">The Island</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#practicalities">Practicalities</a>
+      <a href="#enquire">Enquire</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="market">
+        <button class="market-btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="market-menu">
+          <span class="market-caption">From</span>
+          <span class="market-name" data-market-name>United Kingdom</span>
+          <svg class="chev" viewBox="0 0 12 8" aria-hidden="true" focusable="false"><path d="M1 1.5 6 6.5l5-5" fill="none" stroke="currentColor" stroke-width="1.1"/></svg>
+        </button>
+        <div class="market-menu" id="market-menu" role="menu" aria-label="Travelling from" hidden>
+          <p class="market-menu-title">Travelling from</p>
+          <button type="button" role="menuitemradio" aria-checked="true" data-set-market="uk">
+            <span>United Kingdom</span><span class="market-cur">£ GBP</span>
+          </button>
+          <button type="button" role="menuitemradio" aria-checked="false" data-set-market="in">
+            <span>India</span><span class="market-cur">₹ INR</span>
+          </button>
+          <p class="market-menu-note">Fares, flights and entry notes follow your market.</p>
+        </div>
+      </div>
+      <a class="btn btn-ghost header-cta" href="#enquire">Plan a journey</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" hidden>
+  <div class="mobile-menu-inner">
+    <p class="mobile-menu-eyebrow">Serendib · Menu</p>
+    <nav aria-label="Mobile">
+      <a href="#journeys"><span>01</span>Journeys</a>
+      <a href="#island"><span>02</span>The Island</a>
+      <a href="#gallery"><span>03</span>Gallery</a>
+      <a href="#practicalities"><span>04</span>Practicalities</a>
+      <a href="#enquire"><span>05</span>Enquire</a>
+    </nav>
+    <div class="mobile-market">
+      <p>Travelling from</p>
+      <div class="mobile-market-btns">
+        <button type="button" data-set-market="uk" aria-pressed="true">United Kingdom <span>£</span></button>
+        <button type="button" data-set-market="in" aria-pressed="false">India <span>₹</span></button>
+      </div>
+    </div>
+    <a class="mobile-contact" href="mailto:hello@serendib.travel">hello@serendib.travel</a>
+  </div>
+</div>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <img src="assets/hero-sigiriya.jpg" alt="Sigiriya rock fortress rising above mist-covered jungle at dawn" width="1600" height="914" fetchpriority="high">
+    </div>
+    <div class="hero-veil" aria-hidden="true"></div>
+
+    <div class="container hero-content">
+      <p class="hero-kicker"><span class="hairline" aria-hidden="true"></span>Guided journeys · Sri Lanka</p>
+      <h1 id="hero-title">An island that keeps<br>its own <em>time.</em></h1>
+      <p class="hero-lede">Two considered journeys through Ceylon’s hill country, ancient cities and southern coast — shaped around where you’re travelling from.</p>
+      <div class="hero-actions">
+        <a class="hero-link" href="#journeys">
+          <span>Explore the two journeys</span>
+          <span class="hero-link-icon" aria-hidden="true">
+            <svg viewBox="0 0 16 16" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+          </span>
+        </a>
+        <a class="hero-link hero-link-soft" href="#enquire">Speak to a guide</a>
+      </div>
+    </div>
+
+    <p class="hero-coords" aria-hidden="true">6°55′ N — 79°50′ E · Colombo</p>
+
+    <div class="hero-foot">
+      <div class="container hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-label">Signature journeys</span>
+          <span class="hero-stat-value">Two</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-label">Length</span>
+          <span class="hero-stat-value">6 – 8 days</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-label">Local guides</span>
+          <span class="hero-stat-value">Twenty-four</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-label">Guest rating</span>
+          <span class="hero-stat-value">4.9 <span>/ 5 · 312 reviews</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Sigiriya</span><i>·</i><span>Kandy</span><i>·</i><span>Nine Arch Bridge</span><i>·</i><span>Yala</span><i>·</i><span>Galle Fort</span><i>·</i><span>Mirissa</span><i>·</i><span>Nuwara Eliya</span><i>·</i><span>Anuradhapura</span><i>·</i><span>Trincomalee</span><i>·</i><span>Jaffna</span><i>·</i>
+      <span>Sigiriya</span><i>·</i><span>Kandy</span><i>·</i><span>Nine Arch Bridge</span><i>·</i><span>Yala</span><i>·</i><span>Galle Fort</span><i>·</i><span>Mirissa</span><i>·</i><span>Nuwara Eliya</span><i>·</i><span>Anuradhapura</span><i>·</i><span>Trincomalee</span><i>·</i><span>Jaffna</span><i>·</i>
+    </div>
+  </div>
+
+  <!-- Manifesto -->
+  <section class="section manifesto">
+    <div class="container manifesto-grid">
+      <p class="eyebrow section-label" data-reveal><span class="num">01</span>The idea</p>
+      <div>
+        <h2 class="display" data-reveal>We plan less,<br>so you notice <em>more.</em></h2>
+        <div class="manifesto-cols">
+          <p data-reveal>Serendib is a small travel studio in Colombo. For fifteen years we have designed private journeys for travellers from the United Kingdom and India — eight days in the tea country, six on the southern coast — with the same handful of guides, drivers and bungalow keepers.</p>
+          <p data-reveal>We keep parties at two to six, book the seat with the window, and leave the afternoons empty. The result feels less like a tour and more like being shown around by a friend who happens to live there.</p>
+        </div>
+        <div class="principles">
+          <div class="principle" data-reveal>
+            <span class="principle-num">01</span>
+            <h3>Less road, more place</h3>
+            <p>Three bases, not seven. We would rather you stay for the second cup of tea.</p>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="principle-num">02</span>
+            <h3>Local by default</h3>
+            <p>Guides, drivers, cooks and bungalows — all Sri Lankan, all paid fairly.</p>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="principle-num">03</span>
+            <h3>Small by choice</h3>
+            <p>Two to six guests. No coaches, no fixed departures, no queues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Journeys -->
+  <section class="section journeys" id="journeys">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">02</span>The journeys</p>
+          <h2 class="display" data-reveal>Two ways into <em>Ceylon.</em></h2>
+        </div>
+        <div class="fare-note" data-reveal>
+          <span>Fares shown for travellers from</span>
+          <strong data-market-name>United Kingdom</strong>
+          <span class="fare-sub">in <span data-currency-code>GBP</span> · <button class="link-underline" type="button" data-open-market>Change</button></span>
+        </div>
+      </header>
+
+      <div class="journey-grid">
+        <!-- Journey 01 -->
+        <article class="journey-card" data-reveal>
+          <button class="journey-media" type="button" data-open-itinerary="hill" aria-label="View the day-by-day itinerary for The Hill Country Line">
+            <img src="assets/journey-hill.jpg" alt="A blue train crossing the Nine Arch Bridge through tea-covered hills in Ella" width="1600" height="1067" loading="lazy" decoding="async">
+            <span class="media-index">01</span>
+            <span class="media-badge">Designed for UK travellers</span>
+          </button>
+          <div class="journey-body">
+            <div class="journey-top">
+              <h3>The Hill Country Line</h3>
+              <div class="price-block">
+                <span class="price-label">From</span>
+                <span class="price js-price" data-gbp="2860" data-inr="320000">£2,860</span>
+                <span class="price-unit">per person</span>
+              </div>
+            </div>
+            <p class="journey-route">Colombo <i>·</i> Kandy <i>·</i> Ella <i>·</i> Yala <i>·</i> Galle</p>
+            <p class="journey-desc">The classic arc: the hill capital, the tea line to Ella, a safari in Yala and three slow nights inside the Galle Fort. Built for the long-haul flight from London — you land, exhale, and the island does the rest.</p>
+            <dl class="journey-facts">
+              <div class="fact"><dt>Duration</dt><dd>8 days · 7 nights</dd></div>
+              <div class="fact"><dt>Party</dt><dd>Private · 2–6 guests</dd></div>
+              <div class="fact"><dt>Flights</dt><dd>Direct from London Heathrow</dd></div>
+              <div class="fact"><dt>Pace</dt><dd>Unhurried · three bases</dd></div>
+            </dl>
+            <ul class="include-list">
+              <li>Reserved observation car, Kandy to Ella</li>
+              <li>Yala safari with a resident naturalist</li>
+              <li>Four-star tea bungalows and fort hotels</li>
+              <li>Return flights from Heathrow, taxes included</li>
+            </ul>
+            <div class="journey-actions">
+              <button class="btn btn-solid" type="button" data-open-itinerary="hill">View itinerary</button>
+              <button class="link-arrow" type="button" data-enquire-journey="hill">Enquire <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Journey 02 -->
+        <article class="journey-card" data-reveal style="--reveal-delay: 90ms">
+          <button class="journey-media" type="button" data-open-itinerary="south" aria-label="View the day-by-day itinerary for The Sacred South">
+            <img src="assets/journey-coast.jpg" alt="The white lighthouse and ramparts of Galle Fort at golden hour" width="1600" height="1067" loading="lazy" decoding="async">
+            <span class="media-index">02</span>
+            <span class="media-badge">Designed for Indian travellers</span>
+          </button>
+          <div class="journey-body">
+            <div class="journey-top">
+              <h3>The Sacred South</h3>
+              <div class="price-block">
+                <span class="price-label">From</span>
+                <span class="price js-price" data-gbp="1390" data-inr="118000">₹1,18,000</span>
+                <span class="price-unit">per person</span>
+              </div>
+            </div>
+            <p class="journey-route">Colombo <i>·</i> Kandy <i>·</i> Bentota <i>·</i> Galle</p>
+            <p class="journey-desc">A shorter, softer loop made for a long weekend from India: the Temple of the Tooth at dusk, tea gardens in the morning, a river boat through the mangroves, and the ramparts of Galle at golden hour.</p>
+            <dl class="journey-facts">
+              <div class="fact"><dt>Duration</dt><dd>6 days · 5 nights</dd></div>
+              <div class="fact"><dt>Party</dt><dd>Private · 2–6 guests</dd></div>
+              <div class="fact"><dt>Flights</dt><dd>Direct from Mumbai / Chennai</dd></div>
+              <div class="fact"><dt>Pace</dt><dd>Gentle · two bases</dd></div>
+            </dl>
+            <ul class="include-list">
+              <li>Direct flights, Mumbai · Chennai · Bengaluru</li>
+              <li>Evening puja at the Temple of the Tooth</li>
+              <li>Madu River boat safari and tea estate lunch</li>
+              <li>Five nights, breakfasts and three dinners</li>
+            </ul>
+            <div class="journey-actions">
+              <button class="btn btn-solid" type="button" data-open-itinerary="south">View itinerary</button>
+              <button class="link-arrow" type="button" data-enquire-journey="south">Enquire <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compare -->
+  <section class="section compare">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">03</span>Compare</p>
+          <h2 class="display" data-reveal>Two ways to see <em>the island.</em></h2>
+        </div>
+        <p class="section-note" data-reveal>Every journey is private, guided and built around your dates. The difference is rhythm.</p>
+      </header>
+
+      <div class="compare-wrap" data-reveal>
+        <table class="compare-table">
+          <caption class="visually-hidden">Comparison of The Hill Country Line and The Sacred South</caption>
+          <thead>
+            <tr>
+              <th scope="col"><span class="visually-hidden">Feature</span></th>
+              <th scope="col" class="compare-col">
+                <h3>The Hill Country Line</h3>
+                <span class="compare-tag">For UK travellers · 8 days</span>
+              </th>
+              <th scope="col" class="compare-col">
+                <h3>The Sacred South</h3>
+                <span class="compare-tag">For Indian travellers · 6 days</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Route</th>
+              <td>Colombo · Kandy · Ella · Yala · Galle</td>
+              <td>Colombo · Kandy · Bentota · Galle</td>
+            </tr>
+            <tr>
+              <th scope="row">Pace</th>
+              <td>Unhurried — three bases</td>
+              <td>Gentle — two bases</td>
+            </tr>
+            <tr>
+              <th scope="row">Flights</th>
+              <td>Direct from London Heathrow, overnight</td>
+              <td>Direct from Mumbai, Chennai or Bengaluru</td>
+            </tr>
+            <tr>
+              <th scope="row">Signature moment</th>
+              <td>Observation car over the Nine Arch Bridge</td>
+              <td>Evening puja at the Temple of the Tooth</td>
+            </tr>
+            <tr>
+              <th scope="row">Best months</th>
+              <td>December – April</td>
+              <td>November – April</td>
+            </tr>
+            <tr class="price-row">
+              <th scope="row">From</th>
+              <td><span class="js-price" data-gbp="2860" data-inr="320000">£2,860</span> <small>per person</small></td>
+              <td><span class="js-price" data-gbp="1390" data-inr="118000">₹1,18,000</span> <small>per person</small></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="compare-hint" aria-hidden="true">Swipe the table to compare both journeys <span>&rarr;</span></p>
+      <p class="compare-note" data-reveal>Prices include return flights, taxes, private guiding, transfers and the experiences listed in each itinerary.</p>
+    </div>
+  </section>
+
+  <!-- Island -->
+  <section class="section island" id="island">
+    <div class="container">
+      <header class="section-head island-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">04</span>The island</p>
+          <h2 class="display" data-reveal>Places we return <em>to.</em></h2>
+        </div>
+        <div class="island-tools" data-reveal>
+          <div class="filters" role="group" aria-label="Filter places by kind">
+            <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-btn" type="button" data-filter="culture" aria-pressed="false">Culture</button>
+            <button class="filter-btn" type="button" data-filter="coast" aria-pressed="false">Coast</button>
+            <button class="filter-btn" type="button" data-filter="wildlife" aria-pressed="false">Wildlife</button>
+            <button class="filter-btn" type="button" data-filter="tea" aria-pressed="false">Tea</button>
+          </div>
+          <p class="filter-count"><span id="place-count">6</span> places · <span class="visually-hidden">Use the filters to narrow the list</span></p>
+        </div>
+      </header>
+
+      <div class="place-grid" id="place-grid">
+        <figure class="place" data-category="culture" data-reveal>
+          <img src="assets/hero-sigiriya.jpg" alt="Sigiriya rock fortress surrounded by jungle and morning mist" width="1600" height="914" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Culture</span>
+          <span class="place-num">01</span>
+          <figcaption class="place-caption">
+            <h3>Sigiriya</h3>
+            <p>Lion rock · Cultural Triangle</p>
+          </figcaption>
+        </figure>
+
+        <figure class="place" data-category="culture" data-reveal style="--reveal-delay: 60ms">
+          <img src="assets/island-temple.jpg" alt="A devotee offering lotus flowers at the lamp-lit Temple of the Sacred Tooth Relic" width="1000" height="1250" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Culture</span>
+          <span class="place-num">02</span>
+          <figcaption class="place-caption">
+            <h3>Kandy</h3>
+            <p>Hill capital · Temple of the Tooth</p>
+          </figcaption>
+        </figure>
+
+        <figure class="place" data-category="tea" data-reveal style="--reveal-delay: 120ms">
+          <img src="assets/journey-hill.jpg" alt="Tea terraces and the Nine Arch Bridge in the hills around Ella" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Tea</span>
+          <span class="place-num">03</span>
+          <figcaption class="place-caption">
+            <h3>Ella</h3>
+            <p>Nine arches · Hill country</p>
+          </figcaption>
+        </figure>
+
+        <figure class="place" data-category="wildlife" data-reveal>
+          <img src="assets/island-wildlife.jpg" alt="A herd of wild elephants crossing a shallow lagoon at dusk in Yala" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Wildlife</span>
+          <span class="place-num">04</span>
+          <figcaption class="place-caption">
+            <h3>Yala</h3>
+            <p>Leopards &amp; lagoons · Deep south</p>
+          </figcaption>
+        </figure>
+
+        <figure class="place" data-category="coast" data-reveal style="--reveal-delay: 60ms">
+          <img src="assets/journey-coast.jpg" alt="Galle Fort lighthouse and ramparts at sunset" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Coast</span>
+          <span class="place-num">05</span>
+          <figcaption class="place-caption">
+            <h3>Galle</h3>
+            <p>The old ramparts · South coast</p>
+          </figcaption>
+        </figure>
+
+        <figure class="place" data-category="coast" data-reveal style="--reveal-delay: 120ms">
+          <img src="assets/coast-mirissa.jpg" alt="Palm trees leaning over a quiet turquoise bay at Mirissa" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="place-shade" aria-hidden="true"></span>
+          <span class="place-tag">Coast</span>
+          <span class="place-num">06</span>
+          <figcaption class="place-caption">
+            <h3>Mirissa</h3>
+            <p>Whales &amp; long beaches · South coast</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">05</span>The gallery</p>
+          <h2 class="display" data-reveal>The island, <em>between frames.</em></h2>
+        </div>
+        <p class="section-note" data-reveal>Recent journeys, unretouched. Click any frame to look closer.</p>
+      </header>
+
+      <div class="gallery-grid">
+        <button class="g-item g-a" type="button" data-caption="Stilt fishermen at first light · Koggala" aria-label="Enlarge: stilt fishermen at first light, Koggala" data-reveal>
+          <img src="assets/coast-fisher.jpg" alt="Two stilt fishermen silhouetted against an orange sunset" width="1600" height="914" loading="lazy" decoding="async">
+          <span class="g-label"><span>01</span>Stilt fishermen · Koggala</span>
+        </button>
+        <button class="g-item g-b" type="button" data-caption="The long light at Mirissa · South coast" aria-label="Enlarge: the long light at Mirissa" data-reveal style="--reveal-delay: 70ms">
+          <img src="assets/coast-mirissa.jpg" alt="A quiet curve of golden sand and turquoise water at Mirissa" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="g-label"><span>02</span>The long light · Mirissa</span>
+        </button>
+        <button class="g-item g-c" type="button" data-caption="Evening puja · Temple of the Sacred Tooth, Kandy" aria-label="Enlarge: evening puja at the Temple of the Sacred Tooth" data-reveal>
+          <img src="assets/island-temple.jpg" alt="A devotee holding lotus flowers in the warm lamplight of Kandy's temple" width="1000" height="1250" loading="lazy" decoding="async">
+          <span class="g-label"><span>03</span>Evening puja · Kandy</span>
+        </button>
+        <button class="g-item g-d" type="button" data-caption="The pluckers' hour · Nuwara Eliya tea country" aria-label="Enlarge: a tea plucker in the hills near Nuwara Eliya" data-reveal style="--reveal-delay: 70ms">
+          <img src="assets/island-tea.jpg" alt="A tea plucker carrying a woven basket among misty green terraces" width="1000" height="1250" loading="lazy" decoding="async">
+          <span class="g-label"><span>04</span>The pluckers’ hour · Nuwara Eliya</span>
+        </button>
+        <button class="g-item g-e" type="button" data-caption="Nine arches, one train · Ella" aria-label="Enlarge: a train crossing the Nine Arch Bridge" data-reveal style="--reveal-delay: 140ms">
+          <img src="assets/journey-hill.jpg" alt="A blue train crossing the Nine Arch Bridge above tea fields" width="1600" height="1067" loading="lazy" decoding="async">
+          <span class="g-label"><span>05</span>Nine arches · Ella</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">06</span>In their words</p>
+          <h2 class="display" data-reveal>Notes from <em>the road.</em></h2>
+        </div>
+        <p class="section-note rating-note" data-reveal><span class="stars" aria-hidden="true">★★★★★</span>4.9 / 5 · 312 guest reviews</p>
+      </header>
+
+      <div class="quote-grid">
+        <figure class="quote" data-reveal>
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>“We have travelled a fair amount, and I have never had an itinerary read the room so well. The tea bungalow in Ella was the quietest place I have ever slept.”</blockquote>
+          <figcaption><strong>Eleanor &amp; James Whitfield</strong><span>London · The Hill Country Line</span></figcaption>
+        </figure>
+        <figure class="quote" data-reveal style="--reveal-delay: 80ms">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>“Six days, no rushing, and a guide who knew every lane in Galle. My parents came too — it worked for all three of us.”</blockquote>
+          <figcaption><strong>Priya Nair</strong><span>Mumbai · The Sacred South</span></figcaption>
+        </figure>
+        <figure class="quote" data-reveal style="--reveal-delay: 160ms">
+          <span class="stars" aria-hidden="true">★★★★★</span>
+          <blockquote>“The puja at dusk in Kandy was the moment the trip turned from a holiday into a memory. Faultless planning from the first email.”</blockquote>
+          <figcaption><strong>Rohan Mehta</strong><span>Bengaluru · The Sacred South</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Practicalities -->
+  <section class="section practicalities" id="practicalities">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal><span class="num">07</span>Practicalities</p>
+          <h2 class="display" data-reveal>Before you <em>go.</em></h2>
+        </div>
+        <p class="section-note" data-reveal>The small print, in plain language. We handle most of it once your dates are set.</p>
+      </header>
+
+      <div class="prac-grid">
+        <div class="prac" data-reveal>
+          <span class="prac-num">01</span>
+          <h3>Arriving</h3>
+          <p>
+            <span data-for="uk">Overnight direct from London Heathrow with SriLankan Airlines or British Airways — 10h 45m, landing in the morning.</span>
+            <span data-for="in">Direct from Mumbai, Chennai or Bengaluru — under two hours from Chennai, landing in time for lunch.</span>
+            A private transfer to your first hotel is included.
+          </p>
+        </div>
+        <div class="prac" data-reveal style="--reveal-delay: 60ms">
+          <span class="prac-num">02</span>
+          <h3>Entry &amp; visas</h3>
+          <p>UK and Indian passports both need a Sri Lanka ETA. We file it for you once dates are confirmed; approval usually takes 24–48 hours. Passports should be valid six months beyond travel.</p>
+        </div>
+        <div class="prac" data-reveal style="--reveal-delay: 120ms">
+          <span class="prac-num">03</span>
+          <h3>Money &amp; manners</h3>
+          <p>The rupee (LKR) is local; cards work in the cities, cash in the hills. Cover shoulders and knees at temples, remove shoes and hats, and never pose with your back to a Buddha image.</p>
+        </div>
+        <div class="prac" data-reveal style="--reveal-delay: 180ms">
+          <span class="prac-num">04</span>
+          <h3>Weather &amp; seasons</h3>
+          <p>Two monsoons, two coasts: the south and west shine December to April, the east from May to September. Every journey here is planned around the right coast.</p>
+        </div>
+      </div>
+
+      <div class="season" data-reveal>
+        <div class="season-head">
+          <h3>When the island is at its best</h3>
+          <div class="season-legend">
+            <span><i class="swatch is-in"></i>In season</span>
+            <span><i class="swatch is-sh"></i>Shoulder</span>
+          </div>
+        </div>
+        <div class="season-scroll">
+          <p class="visually-hidden">South and west coast: in season December to April; shoulder October and November. East coast: in season May to September; shoulder January, April and October.</p>
+          <div class="season-grid" aria-hidden="true">
+            <span class="season-blank" aria-hidden="true"></span>
+            <span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span>
+
+            <span class="row-label">South &amp; west</span>
+            <i class="cell is-in" role="cell" aria-label="January, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="February, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="March, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="April, in season"></i>
+            <i class="cell" role="cell" aria-label="May, low season"></i>
+            <i class="cell" role="cell" aria-label="June, low season"></i>
+            <i class="cell" role="cell" aria-label="July, low season"></i>
+            <i class="cell" role="cell" aria-label="August, low season"></i>
+            <i class="cell" role="cell" aria-label="September, low season"></i>
+            <i class="cell is-sh" role="cell" aria-label="October, shoulder season"></i>
+            <i class="cell is-sh" role="cell" aria-label="November, shoulder season"></i>
+            <i class="cell is-in" role="cell" aria-label="December, in season"></i>
+
+            <span class="row-label">East coast</span>
+            <i class="cell is-sh" role="cell" aria-label="January, shoulder season"></i>
+            <i class="cell" role="cell" aria-label="February, low season"></i>
+            <i class="cell" role="cell" aria-label="March, low season"></i>
+            <i class="cell is-sh" role="cell" aria-label="April, shoulder season"></i>
+            <i class="cell is-in" role="cell" aria-label="May, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="June, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="July, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="August, in season"></i>
+            <i class="cell is-in" role="cell" aria-label="September, in season"></i>
+            <i class="cell is-sh" role="cell" aria-label="October, shoulder season"></i>
+            <i class="cell" role="cell" aria-label="November, low season"></i>
+            <i class="cell" role="cell" aria-label="December, low season"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq">
+    <div class="container faq-grid">
+      <div class="faq-intro">
+        <p class="eyebrow" data-reveal><span class="num">08</span>Questions</p>
+        <h2 class="display" data-reveal>Things people <em>ask.</em></h2>
+        <p class="faq-lede" data-reveal>Still deciding? Write to a guide — a real person in Colombo, not a bot. We answer within one working day.</p>
+        <a class="link-arrow" href="#enquire" data-reveal>Ask a question <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></a>
+      </div>
+
+      <div class="faq-list" data-reveal>
+        <article class="faq-item is-open">
+          <h3><button class="faq-q" type="button" id="faq-btn-1" aria-expanded="true" aria-controls="faq-1"><span>Which journey should I choose?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-1" role="region" aria-labelledby="faq-btn-1">
+            <div class="faq-a-inner"><p>The Hill Country Line suits first-time visitors from the UK who want tea country, wildlife and coast in one arc. The Sacred South is made for shorter breaks from India — temple culture, river country and the fort, at a gentler pace. If you are between the two, tell us your dates and we will suggest one.</p></div>
+          </div>
+        </article>
+        <article class="faq-item">
+          <h3><button class="faq-q" type="button" id="faq-btn-2" aria-expanded="false" aria-controls="faq-2"><span>Do I need a visa for Sri Lanka?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-2" role="region" aria-labelledby="faq-btn-2">
+            <div class="faq-a-inner"><p>Yes — an ETA is required for both UK and Indian passports. We file it for you as part of the booking, usually 24–48 hours before approval. You only need a passport valid for six months beyond your travel dates and a return ticket.</p></div>
+          </div>
+        </article>
+        <article class="faq-item">
+          <h3><button class="faq-q" type="button" id="faq-btn-3" aria-expanded="false" aria-controls="faq-3"><span>Are the journeys private?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-3" role="region" aria-labelledby="faq-btn-3">
+            <div class="faq-a-inner"><p>Entirely. A private guide and car travel with you throughout, and there are no fixed departures or shared coaches. Parties are two to six guests, so the itinerary moves at your pace — not a group’s.</p></div>
+          </div>
+        </article>
+        <article class="faq-item">
+          <h3><button class="faq-q" type="button" id="faq-btn-4" aria-expanded="false" aria-controls="faq-4"><span>When is the best time to visit?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-4" role="region" aria-labelledby="faq-btn-4">
+            <div class="faq-a-inner"><p>Two monsoons means somewhere is always in season. The south and west coast are best December to April; the east coast from May to September. Both journeys stay in the south, so November to April is the sweet spot.</p></div>
+          </div>
+        </article>
+        <article class="faq-item">
+          <h3><button class="faq-q" type="button" id="faq-btn-5" aria-expanded="false" aria-controls="faq-5"><span>Can we change the itinerary?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-5" role="region" aria-labelledby="faq-btn-5">
+            <div class="faq-a-inner"><p>Yes. Add a night in Mirissa, a cooking class in Galle, or a few days in the Maldives at the end. Every journey begins as a conversation and ends as a draft built around you — nothing is fixed until you say so.</p></div>
+          </div>
+        </article>
+        <article class="faq-item">
+          <h3><button class="faq-q" type="button" id="faq-btn-6" aria-expanded="false" aria-controls="faq-6"><span>How do payments and cancellations work?</span><i class="faq-icon" aria-hidden="true"></i></button></h3>
+          <div class="faq-a" id="faq-6" role="region" aria-labelledby="faq-btn-6">
+            <div class="faq-a-inner"><p>A 20% deposit confirms your dates; the balance is due 45 days before arrival. Cancel more than 60 days out and the deposit is refunded in full. We also hold a small fund for medical or family emergencies — just talk to us.</p></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry -->
+  <section class="section enquiry" id="enquire">
+    <div class="container enquiry-grid">
+      <div class="enquiry-intro">
+        <p class="eyebrow" data-reveal><span class="num">09</span>Enquire</p>
+        <h2 class="display" data-reveal>Begin with a <em>conversation.</em></h2>
+        <p class="enquiry-lede" data-reveal>Tell us roughly when, who and how long. A guide from our Colombo studio will reply with a draft itinerary and a firm price — no deposits, no pressure.</p>
+
+        <dl class="contact-block" data-reveal>
+          <div class="contact-item">
+            <dt>Studio</dt>
+            <dd>41 Rosmead Place<br>Colombo 07, Sri Lanka</dd>
+          </div>
+          <div class="contact-item">
+            <dt>Write</dt>
+            <dd><a href="mailto:hello@serendib.travel">hello@serendib.travel</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>Call</dt>
+            <dd><a href="tel:+94112694410">+94 11 269 4410</a></dd>
+          </div>
+          <div class="contact-item">
+            <dt>Hours</dt>
+            <dd>Monday – Saturday · 09:00–18:00 IST</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="enquiry-panel" id="enquiry-panel">
+        <form class="enquiry-form" id="enquiry-form" novalidate>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required>
+              <p class="field-error" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="field-error" role="alert"></p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="from-country">Travelling from</label>
+              <select id="from-country" name="country">
+                <option>United Kingdom</option>
+                <option>India</option>
+                <option>Elsewhere</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="journey-select">Journey of interest</label>
+              <select id="journey-select" name="journey">
+                <option value="">Not sure yet</option>
+                <option value="hill">The Hill Country Line — 8 days</option>
+                <option value="south">The Sacred South — 6 days</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="month">Preferred month</label>
+              <select id="month" name="month">
+                <option>Flexible</option>
+                <option>January</option><option>February</option><option>March</option><option>April</option>
+                <option>May</option><option>June</option><option>July</option><option>August</option>
+                <option>September</option><option>October</option><option>November</option><option>December</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="travellers">Travellers</label>
+              <select id="travellers" name="travellers">
+                <option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7+</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Anything else</label>
+            <textarea id="message" name="message" rows="3" placeholder="Dates, pace, who’s coming — the more we know, the better the first draft."></textarea>
+          </div>
+
+          <div class="check-field">
+            <label class="check">
+              <input type="checkbox" id="consent" name="consent" required>
+              <span>I’m happy to be contacted about this enquiry.</span>
+            </label>
+            <p class="field-error" role="alert"></p>
+          </div>
+
+          <div class="form-submit">
+            <p class="form-note">Design prototype — enquiries are not delivered.</p>
+            <button class="btn btn-gold" type="submit">Send enquiry <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+          </div>
+        </form>
+
+        <div class="form-success" tabindex="-1" aria-live="polite">
+          <p class="eyebrow"><span class="num">✓</span>Received</p>
+          <h3>Thank you — your note is with our Colombo desk.</h3>
+          <p>A guide will reply within one working day with a draft itinerary and a firm price. If your dates are close, call <a href="tel:+94112694410">+94 11 269 4410</a> and ask for the journeys team.</p>
+          <p class="form-note">Demo interface — no message has actually been sent.</p>
+          <button class="btn btn-ghost" type="button" id="reset-enquiry">Send another enquiry</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-wordmark">
+      <span>Serendib</span>
+      <small>Journeys through Ceylon</small>
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#journeys">The journeys</a>
+        <a href="#island">The island</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#practicalities">Practicalities</a>
+      </div>
+      <div class="footer-col">
+        <h4>Two journeys</h4>
+        <a href="#journeys">The Hill Country Line</a>
+        <a href="#journeys">The Sacred South</a>
+        <a href="#enquire">Plan something else</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>41 Rosmead Place<br>Colombo 07, Sri Lanka</p>
+        <a href="mailto:hello@serendib.travel">hello@serendib.travel</a>
+        <a href="tel:+94112694410">+94 11 269 4410</a>
+      </div>
+      <div class="footer-col footer-news">
+        <h4>The Serendib Letter</h4>
+        <p>Four dispatches a year from the island. No noise, no offers.</p>
+        <form id="newsletter-form" novalidate>
+          <label class="visually-hidden" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" placeholder="Your email" autocomplete="email" required>
+          <button type="submit" aria-label="Subscribe to the Serendib Letter">
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h10M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+          </button>
+        </form>
+        <p class="newsletter-status" id="newsletter-status" role="status"></p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Serendib Journeys · Design prototype, sample content</span>
+      <span>Fares in <span data-currency-code>GBP</span> · <button class="link-underline footer-market" type="button" data-open-market>Travelling from <span data-market-name>United Kingdom</span></button></span>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Itinerary dialog -->
+<dialog class="itinerary" id="itinerary" aria-labelledby="itinerary-title">
+  <div class="itinerary-shell">
+    <button class="dialog-close" type="button" aria-label="Close itinerary">
+      <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+    </button>
+    <div class="itinerary-head">
+      <p class="eyebrow"><span class="num" id="itinerary-num">01</span><span id="itinerary-kicker">Journey</span></p>
+      <h2 id="itinerary-title">The Hill Country Line</h2>
+      <p class="itinerary-sub" id="itinerary-sub"></p>
+      <div class="itinerary-meta" id="itinerary-meta"></div>
+    </div>
+    <div class="itinerary-grid">
+      <div class="day-list" id="itinerary-days"></div>
+      <aside class="itinerary-aside">
+        <p class="aside-label">From</p>
+        <p class="aside-price" id="itinerary-price">£2,860</p>
+        <p class="aside-note">per person · incl. flights &amp; taxes</p>
+        <h3>Included</h3>
+        <ul id="itinerary-included"></ul>
+        <h3>Not included</h3>
+        <ul id="itinerary-excluded"></ul>
+        <button class="btn btn-solid" type="button" id="itinerary-enquire">Enquire about this journey</button>
+      </aside>
+    </div>
+  </div>
+</dialog>
+
+<!-- Lightbox -->
+<dialog class="lightbox" id="lightbox" aria-label="Gallery viewer">
+  <button class="lightbox-close" type="button" aria-label="Close gallery">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 3l10 10M13 3L3 13" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+  </button>
+  <button class="lightbox-nav prev" type="button" aria-label="Previous image">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 3 5 8l5 5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+  </button>
+  <figure class="lightbox-figure">
+    <img id="lightbox-img" src="assets/coast-fisher.jpg" alt="">
+    <figcaption>
+      <span id="lightbox-caption"></span>
+      <span class="lightbox-count" id="lightbox-count"></span>
+    </figcaption>
+  </figure>
+  <button class="lightbox-nav next" type="button" aria-label="Next image">
+    <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+  </button>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
